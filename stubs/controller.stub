@@ -1,0 +1,96 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
+
+class {{ class }} extends Controller
+{
+    protected 'ss' ;
+
+    public function __construct()
+    {
+
+      $this->adminRepo = $adminRepo ;
+
+    }
+
+    public function index()
+    {
+
+         return view('dashboard.backend.admins.index' , compact('admins'));
+    }
+
+
+    public function create()
+    {
+         return view('dashboard.backend.admins.create');
+    }
+
+
+    public function store(Request $request)
+    {
+
+       $data = $request->except('img');
+        if ($request->hasFile('img')) {
+            $data['img'] = $request->file('img')->store('admins');
+        }
+
+
+        return redirect(route('admin.admins.index'))->with('success', __('models.added_successfully'));
+
+    }
+
+
+    public function show($id)
+    {
+        //
+    }
+
+
+    public function edit($id)
+    {
+        return view('dashboard.backend.admins.edit' , compact('admin'));
+
+    }
+
+
+    public function update(Request $request, $id)
+    {
+         $admin = $this->adminRepo->findOne($id);
+         $data = $request->except('img' );
+
+          if ($request->hasFile('img')) {
+
+            Storage::delete($admin->img);
+
+            $data['img'] = $request->file('img')->store('admins');
+
+        } else {
+            $data['img'] = $admin->img;
+        }
+
+        $admin->update($data);
+        return redirect(route('admin.admins.index'))->with('success', __('models.added_successfully'));
+
+    }
+
+
+    public function destroy($id)
+    {
+         $admin = $this->adminRepo->findOne($id);
+
+        if ($admin->img) {
+            Storage::delete($admin->img);
+        }
+
+        $admin->delete();
+
+        return \response()->json([
+            'message' => __('models.deleted_successfully')
+        ]);
+    }
+}

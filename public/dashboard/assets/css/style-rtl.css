@@ -1,0 +1,113 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.error_page {
+    display: block;
+    max-width: 50%;
+    padding-right: 110px;
+    margin: 40px auto;
+}
+
+.error_page img {
+    display: block;
+    margin: 20px auto;
+    padding-top: 70px;
+    width: 750px;
+}
+
+.gomaa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.card {
+    padding: 10px;
+}
+
+.main-menu .navbar-header {
+    height: 11.45rem;
+}
+
+
+.main-menu .main-menu-content {
+    height: calc(100% - 11.45rem) !important;
+}
+
+
+body {
+    font-family: 'Tajawal', sans-serif !important;
+
+}
+.navigation {
+        font-family: 'Tajawal', sans-serif !important;
+
+}
+
+.header-navbar {
+    font-family: 'Tajawal', sans-serif !important;
+    
+}
+
+.main-menu.menu-light .navigation > li.active > a {
+        box-shadow: none;
+    background:linear-gradient(-118deg, #0066B1,  #032944de);
+}
+
+.nav-pills .nav-link.active {
+    background:linear-gradient(-118deg, #0066B1,  #032944de);
+}
+
+.nav-pills .nav-link.active {
+    border-color: #0066B1;
+    background:linear-gradient(-118deg, #0066B1,  #032944de);
+    box-shadow: none;
+}
+
+.btn-primary {
+    border-color: #0066B1 !important;
+    background-color: #0066B1 !important;
+    color: #FFFFFF !important;
+}
+
+.breadcrumb-right .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: #FFFFFF;
+    background-color: #0066B1 !important;
+}
+
+
+.dropdown-menu.dropdown-menu-right.show {
+    transform: translate3d(0px, 38px, 0px) !important;
+}
+.page-item.active .page-link {
+    background-color: #0066B1 !important;
+}
+a {
+    color: #0066B1;
+}
+
+.card-congratulations {
+        background:linear-gradient(-118deg, #0066B1,  #032944de);
+
+}
+
+.vertical-layout .header-navbar .navbar-container ul.navbar-nav li.dropdown .dropdown-menu {
+    top: 8px !important;
+}
+
+
+ .card-congratulations .bg-primary {
+    background-color: #FFC928 !important;
+}

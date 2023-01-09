@@ -1,0 +1,159 @@
+/*start footer*/
+footer {
+    padding: 110px 0 30px;
+    position: relative;
+}
+
+.contact-information .logo {
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    margin-bottom: 20px;
+
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    color: #3f4542;
+
+}
+
+.contact-list li a {
+    color: #3f4542
+}
+
+.contact-list i {
+    width: 20px;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-list ul {
+    flex: 0 0 50%;
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-list ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.footer-list ul li:hover a {
+    color: #5ee0ed
+}
+
+.footer-list ul li:hover::before {
+    content: "\f101";
+    color: #5ee0ed
+}
+
+.footer-list ul li::before {
+    content: "\f105";
+    font-family: fontAwesome;
+}
+
+.footer-list ul li a {
+    color: #353535;
+    display: inline-block;
+}
+
+footer .sm-title {
+    margin-top: 20px;
+
+}
+
+
+.contact-form {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-form .mn-btn {
+    position: absolute;
+    bottom: -15px;
+    box-shadow: 0 0 0 8px #fff;
+    z-index: 9;
+}
+
+.contact-form .mn-btn::before {
+    background: #fff;
+}
+
+.contact-form .form-control {
+    background: #f2f7f8;
+
+}
+
+.contact-form .form-group i {
+    position: absolute;
+    top: 10px;
+}
+
+.company {
+    margin-top: 40px
+}
+
+
+.company a span {
+    display: block;
+    font-weight: 700;
+    color: #353535;
+    margin: 10px auto 15px;
+    font-size: 15px;
+}
+
+
+.whatsapp-div {
+    font-size: 40px;
+    background: #23ea85;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    z-index: 99;
+    left: 20px;
+}
+
+.whatsapp-div span {
+    position: absolute;
+    bottom: 50px;
+    background: #23ea85;
+    width: 100px;
+    padding: 0;
+    left: -15px;
+    right: -15px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    z-index: 9;
+}
+
+.whatsapp-div-fixed {
+    position: fixed;
+    bottom: 50px;
+}
+
+
+.whatsapp-div:hover span {
+    bottom: calc(100% + 10px);
+}
+
+.whatsapp-div:hover i {
+    color: #fff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
+}
+
+/*end footer*/

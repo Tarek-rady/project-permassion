@@ -1,0 +1,484 @@
+body {
+    direction: rtl;
+}
+
+.intl-tel-input.allow-dropdown .flag-container,
+.intl-tel-input.separate-dial-code .flag-container {
+    right: 0
+}
+
+.intl-tel-input .country-list {
+    text-align: right
+}
+
+.intl-tel-input .country-list .country-name,
+.intl-tel-input .country-list .flag-box {
+    margin-right: auto;
+    margin-left: 6px;
+}
+
+.intl-tel-input .selected-flag {
+    padding: 0 8px 0 0;
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type=tel],
+.intl-tel-input.allow-dropdown input[type=text],
+.intl-tel-input.separate-dial-code input,
+.intl-tel-input.separate-dial-code input[type=tel],
+.intl-tel-input.separate-dial-code input[type=text] {
+    padding-left: 6px;
+    padding-right: 52px;
+    margin-right: 0;
+}
+
+.intl-tel-input .country-list .country {
+    direction: ltr
+}
+
+.intl-tel-input .selected-flag .iti-arrow {
+    left: 5px;
+    right: auto
+}
+
+.owl-nav,
+.sub-btn-div,
+.lan-soc-grid,
+.main-breadcrumbs-grid {
+    text-align: left
+}
+
+
+.divided-dropmenu,
+.menu ul.submenu-list,
+.form-control,
+.menu label,
+.sec-title,
+footer,
+.main-owl .owl-carousel,
+.serv-div,
+.pan-div,
+.news-item,
+.subscribe-form-div,
+.pages-header,
+.about-img-text p,
+.product-div,
+.careers-form .product-name,
+.invalid-feedback,
+.careers-form .form-group {
+
+    text-align: right
+}
+
+
+.clients .sec-title {
+    text-align: center
+}
+
+.serv-div,
+.holder_pager {
+    direction: rtl
+}
+
+.holder a.jp-next:after,
+.holder_pager a.jp-previous:after {
+    content: "\f054";
+}
+
+.holder_pager a.jp-next:after {
+    content: "\f053";
+}
+
+/*start index*/
+
+.logo img {
+    margin-left: 10px;
+}
+
+.main-menu > li > a::before,
+.mn-btn::after,
+.header-fixed,
+.tp-bgimg.defaultimg::before,
+.serv-title span:before,
+.news-item::before,
+.news-item::after,
+.gallery-caption,
+.gallery-caption:before,
+.slider-caption::before,
+.pages-header:before,
+.product-img::before,
+.product-img::after,
+.services-single #sync1 .item > a::after,
+.popup,
+.gallery-img,
+.news-btn::before {
+    right: 0;
+}
+
+
+.owl-nav,
+.contact-form .mn-btn {
+    left: 0;
+}
+
+.read-btn-div::before {
+    right: 10px;
+}
+
+.slider-caption p {
+    padding-left: 20px;
+}
+
+.serv-title span,
+.postion-cap span::before,
+.footer-list ul li::before,
+.old-price {
+    margin-left: 7px;
+}
+
+
+
+.serv-div:hover .read-btn-div {
+    margin-right: 0
+}
+
+.read-btn-div {
+    margin-right: -10px
+}
+
+.pan-title::before {
+    margin-left: 15px;
+}
+
+.panel-prg {
+    padding: 20px 60px 20px 20px;
+}
+
+.nav-icon {
+    left: 15px;
+    direction: ltr
+}
+
+.admin-list li {
+    margin-left: 35px;
+}
+
+.admin-list i {
+    margin-left: 7px;
+}
+
+.news-carousel .owl-carousel {
+    margin-right: -10px;
+}
+
+.contact-list i {
+    margin-right: -20px;
+}
+
+.contact-form .form-control {
+    padding-right: 35px;
+
+}
+
+.contact-list li {
+    padding-right: 20px;
+}
+
+.contact-form .form-group i {
+    right: 25px;
+}
+
+.contact-form textarea.form-control {
+    padding-right: 10px;
+}
+
+.serv-title {
+    margin-right: 50px;
+}
+
+.serv-title span {
+    margin-right: -50px;
+
+}
+
+.owl-next:before {
+    content: "\f104";
+
+}
+
+.owl-prev:before {
+    content: "\f105";
+
+}
+
+.main-owl .owl-next:before,
+.brands .owl-next:before,
+.pop-owl .owl-next:before {
+    content: "\f105";
+}
+
+.main-owl .owl-prev:before,
+.brands .owl-prev:before,
+.pop-owl .owl-prev:before {
+    content: "\f104";
+
+}
+
+
+.divided-dropmenu h3::before,
+.divided-dropmenu a::before {
+    margin-left: 7px;
+}
+
+.divided-dropmenu a:hover,
+.footer-list ul li:hover a {
+    transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+}
+
+.menu img {
+    margin-left: 5px;
+}
+
+.menu label:after {
+    margin-right: 5px;
+}
+
+.shape-title span:before {
+    right: -1px;
+}
+
+.shape-title span:after {
+    left: -5px;
+}
+
+.shape-title:after {
+    right: 20.5%;
+    transform-origin: bottom right;
+    -ms-transform: skew(30deg, 0deg);
+    -webkit-transform: skew(30deg, 0deg);
+    transform: skew(30deg, 0deg);
+}
+
+.shape-title:before {
+    right: 0;
+    transform-origin: bottom right;
+    -ms-transform: skew(30deg, 0deg);
+    -webkit-transform: skew(30deg, 0deg);
+    transform: skew(30deg, 0deg);
+}
+
+.main-owl .owl-carousel {
+    right: 14px;
+}
+
+.tp-bullets.simplebullets {
+    right: 380px;
+    left: auto !important;
+}
+
+.ruler-shap::before,
+.ruler-shap:after {
+    right: 5px;
+}
+
+.panel-prg::before {
+    right: 35px;
+}
+
+.gallery-images:nth-of-type(even) .gallery-caption {
+    transform: rotateY(-50deg) translateZ(60px);
+    -webkit-transform: rotateY(-50deg) translateZ(60px);
+}
+
+.gallery-images:nth-of-type(odd) .gallery-caption {
+    transform: rotateY(50deg) translateZ(60px);
+    -webkit-transform: rotateY(50deg) translateZ(60px);
+}
+
+.gallery-images:nth-of-type(even) .gallery-caption:before {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.gallery-images:nth-of-type(odd) .gallery-caption:before {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.gallery-images:nth-of-type(odd) .postion-cap {
+    transform: rotateZ(50deg) translateY(0);
+    -webkit-transform: rotateZ(50deg) translateY(0)
+}
+
+
+.gallery-images:nth-of-type(even) .postion-cap {
+    transform: rotateZ(-50deg) translateY(0);
+    -webkit-transform: rotateZ(-50deg) translateY(0)
+}
+
+.active-bar span {
+    left: 0
+}
+
+/*end index*/
+
+/*start pages*/
+.static-stars {
+    direction: ltr;
+}
+
+.product-name::before {
+    margin-left: 3px;
+    content: "\f0d9";
+}
+
+
+.about-img-text p {
+    padding-left: 20px;
+}
+
+.soc-bg-div {
+    padding-right: 0
+}
+
+.icon-input {
+    left: 30px;
+}
+
+.file-upload2 .file-select,
+#datepicker {
+    padding-left: 50px;
+    text-align: right;
+}
+
+.file-upload2 .file-select input[type=file] {
+    right: 0;
+}
+
+.file-select .invalid-feedback {
+    margin-right: -10px;
+}
+
+.file-upload2 .form-icon {
+    left: 0;
+}
+
+.file-select-button.icon-input {
+    left: 10px;
+}
+
+.news-btn {
+    margin-left: 30px;
+}
+
+.popup .static-stars {
+    margin-left: 20px;
+}
+
+.form-check-inline {
+    padding-right: 0;
+    margin-left: .75rem;
+    margin-right: auto;
+}
+
+.careers-form .form-check-label:before,
+.careers-form .form-check-label:after {
+    right: -15px;
+}
+
+.careers-form .form-check-label {
+    padding-right: 5px;
+}
+
+.main-carrer-title:before {
+    margin-left: 3px;
+}
+
+/*end pages*/
+
+
+/*start responsive*/
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    .nav-grid {
+        padding-right: 0;
+        padding-left: 4px;
+    }
+
+    .logo img {
+        margin-left: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .lan-soc-grid {
+        text-align: left
+    }
+
+    .soc-bg-div {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slider-caption p {
+        padding-left: 0
+    }
+
+    .lan-soc-grid {
+        padding-right: 0
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-grid {
+        text-align: right !important
+    }
+
+    .lan-soc-grid {
+        padding-right: 15px;
+    }
+
+    .nav-grid {
+        right: 0;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+
+    .nav-content:after {
+        right: 0
+    }
+
+    .main-menu > li {
+        text-align: right
+    }
+
+    .panel-prg {
+        padding: 20px 37px 20px 10px;
+    }
+
+    .panel-prg::before {
+        right: 20px;
+    }
+
+    .main-menu > li > a::before {
+        content: "\f0da";
+
+    }
+
+
+}
+
+@media only screen and (max-width: 410px) {
+
+    .admin-list li {
+        margin-left: 6px;
+    }
+}
+
+/*end responsive*/

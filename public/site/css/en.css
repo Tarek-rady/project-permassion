@@ -1,0 +1,434 @@
+.owl-nav,
+.sub-btn-div,
+.lan-soc-grid,
+.main-breadcrumbs-grid {
+    text-align: right
+}
+
+
+.divided-dropmenu,
+.menu ul.submenu-list {
+    text-align: left
+}
+
+
+.serv-div,
+.news-item,
+.slider-caption,
+.client-div {
+    direction: ltr
+}
+
+nav a,
+.divided-dropmenu h3,
+.mn-btn,
+.menu ul.submenu-list li a,
+.social-icons a span,
+.pan-title,
+.client-title,
+.footer-list ul,
+.pages-prg,
+.product-name,
+.main-page-form h4 {
+    text-transform: capitalize
+}
+
+.menu label,
+.sec-title,
+.read-more,
+.serv-title,
+.news-item h3,
+.form-control,
+.postion-cap,
+.main-breadcrumbs,
+.contact-icons h3,
+.contact-icons p,
+.main-page-form h2,
+.page-title {
+    text-transform: uppercase
+}
+
+/*start index*/
+
+.logo img {
+    margin-right: 10px;
+}
+
+.main-menu > li > a::before,
+.mn-btn::after,
+.header-fixed,
+.tp-bgimg.defaultimg::before,
+.serv-title span:before,
+.news-item::before,
+.news-item::after,
+.gallery-caption,
+.gallery-caption:before,
+.slider-caption::before,
+.pages-header:before,
+.product-img::before,
+.product-img::after,
+.services-single #sync1 .item > a::after,
+.popup,
+.gallery-img,
+.news-btn::before {
+    left: 0;
+}
+
+
+.owl-nav,
+.contact-form .mn-btn {
+    right: 0;
+}
+
+.read-btn-div::before {
+    left: 10px;
+}
+
+.slider-caption p {
+    padding-right: 20px;
+}
+
+.serv-title span,
+.postion-cap span::before,
+.footer-list ul li::before,
+.old-price {
+    margin-right: 7px;
+}
+
+
+
+.serv-div:hover .read-btn-div {
+    margin-left: 0
+}
+
+.read-btn-div {
+    margin-left: -10px
+}
+
+.pan-title::before {
+    margin-right: 15px;
+}
+
+.panel-prg {
+    padding: 20px 20px 20px 60px;
+}
+
+.nav-icon {
+    right: 15px;
+    direction: rtl
+}
+
+.admin-list li {
+    margin-right: 35px;
+}
+
+.admin-list i {
+    margin-right: 7px;
+}
+
+.news-carousel .owl-carousel {
+    margin-left: -10px;
+}
+
+.contact-list i {
+    margin-left: -20px;
+}
+
+.contact-form .form-control {
+    padding-left: 35px;
+
+}
+
+.contact-list li {
+    padding-left: 20px;
+}
+
+.contact-form .form-group i {
+    left: 25px;
+}
+
+.contact-form textarea.form-control {
+    padding-left: 10px;
+}
+
+.serv-title {
+    margin-left: 50px;
+}
+
+.serv-title span {
+    margin-left: -50px;
+
+}
+
+.owl-next:before {
+    content: "\f105";
+
+}
+
+.owl-prev:before {
+    content: "\f104";
+
+}
+
+.divided-dropmenu h3::before,
+.divided-dropmenu a::before {
+    margin-right: 7px;
+}
+
+
+.divided-dropmenu a:hover,
+.footer-list ul li:hover a {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+}
+
+.menu label:after {
+    margin-left: 5px;
+}
+
+.menu img {
+    margin-right: 5px;
+}
+
+.shape-title span:before {
+    left: -1px;
+}
+
+.shape-title span:after {
+    right: -5px;
+}
+
+.shape-title:after {
+    left: 20.5%;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+
+.shape-title:before {
+    left: 0;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+
+.main-owl .owl-carousel {
+    left: 14px;
+}
+
+.tp-bullets.simplebullets {
+    left: 380px !important;
+}
+
+.ruler-shap::before,
+.ruler-shap:after {
+    left: 5px;
+}
+
+.panel-prg::before {
+    left: 35px;
+}
+
+
+.menu label {
+    font-size: 12px;
+}
+
+.gallery-images:nth-of-type(odd) .gallery-caption {
+    transform: rotateY(-50deg) translateZ(60px);
+    -webkit-transform: rotateY(-50deg) translateZ(60px);
+}
+
+.gallery-images:nth-of-type(even) .gallery-caption {
+    transform: rotateY(50deg) translateZ(60px);
+    -webkit-transform: rotateY(50deg) translateZ(60px);
+}
+
+.gallery-images:nth-of-type(odd) .gallery-caption:before {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.gallery-images:nth-of-type(even) .gallery-caption:before {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.gallery-images:nth-of-type(even) .postion-cap {
+    transform: rotateZ(50deg) translateY(0);
+    -webkit-transform: rotateZ(50deg) translateY(0)
+}
+
+
+.gallery-images:nth-of-type(odd) .postion-cap {
+    transform: rotateZ(-50deg) translateY(0);
+    -webkit-transform: rotateZ(-50deg) translateY(0)
+}
+
+.file-upload2 .file-select input[type=file] {
+    left: 0;
+}
+
+.file-select .invalid-feedback {
+    margin-left: -10px;
+}
+
+.active-bar span {
+    right: 0
+}
+
+
+.services .owl-next:before {
+    content: "\f104";
+}
+
+.services .owl-prev:before {
+    content: "\f105";
+
+}
+
+/*end index*/
+
+/*start pages*/
+.static-stars {
+    direction: rtl;
+}
+
+.product-name::before {
+    margin-right: 3px;
+}
+
+.about-img-text p {
+    padding-right: 20px;
+}
+
+.soc-bg-div {
+    padding-left: 0
+}
+
+.icon-input {
+    right: 30px;
+}
+
+.file-upload2 .file-select,
+#datepicker {
+    padding-right: 50px;
+}
+
+.file-upload2 .form-icon {
+    right: 0;
+}
+
+.file-select-button.icon-input {
+    right: 10px;
+}
+
+.news-btn {
+    margin-right: 30px;
+}
+
+.popup .static-stars {
+    margin-right: 20px;
+}
+
+.careers-form .form-check-label:before,
+.careers-form .form-check-label:after {
+    left: -15px;
+}
+
+.careers-form .form-check-label {
+    padding-left: 5px;
+}
+
+
+.main-carrer-title:before {
+    margin-right: 3px;
+}
+/*end pages*/
+
+
+/*start responsive*/
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    .nav-grid {
+        padding-right: 4px;
+        padding-left: 0;
+    }
+
+    .logo img {
+        margin-right: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .lan-soc-grid {
+        text-align: right
+    }
+
+    .soc-bg-div {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slider-caption p {
+        padding-right: 0
+    }
+
+    .lan-soc-grid {
+        padding-left: 0
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-grid {
+        text-align: left !important
+    }
+
+    .lan-soc-grid {
+        padding-left: 15px;
+    }
+
+    .nav-grid {
+        left: 0;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+    }
+
+    .nav-content:after {
+        left: 0
+    }
+
+    .main-menu > li {
+        text-align: left
+    }
+
+    .panel-prg {
+        padding: 20px 10px 20px 37px;
+    }
+
+    .panel-prg::before {
+        left: 20px;
+    }
+
+    .main-menu > li > a::before {
+        content: "\f0d9";
+    }
+
+
+}
+
+@media only screen and (max-width: 410px) {
+
+    .admin-list li {
+        margin-right: 6px;
+    }
+}
+
+/*end responsive*/
